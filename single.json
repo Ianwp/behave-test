@@ -1,0 +1,19 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "ianpasch2",
+  "key": "7pTgRfMXpxyZyyyxKsDw",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "name": "Bstack-[Behave] Sample Test",
+    "build": "Ian Behave 1.4"
+  },
+
+  "environments": [{
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "Chrome",
+      "browser_version": "76.0",
+      "resolution": "1024x768"
+  }]
+}
